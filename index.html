@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="jquery-ui\jquery-ui.css">
+  <link rel="stylesheet" href="jquery-ui\jquery-ui.structure.css">
+  <link rel="stylesheet" href="jquery-ui\jquery-ui.theme.css">
+
+</head>
+<body>
+<div id="mydiv">
+  <h2>Computer Science and Engineering</h2>
+  <p>Focuses on the design, operation, control, and optimization of chemical processes. These include natural and man-made materials, the interaction of materials with machines, safety and health, energy conservation, and waste and pollution control. This extends to plant design and layout, machine and wet process design and improvement and designing and creating products.</p>
+<br><br>
+  <h2>Electrical and Electronics Engineering</h2>
+  <p>An engineering discipline that involves the science, technology, and practice of extracting and processing minerals from a naturally occurring environment. Mining engineering is closely related to many other disciplines like mineral processing and metallurgy, geotechnical engineering and surveying. A mining engineer manages all phases of mining operations – from exploration and discovery of the mineral resource, through feasibility studies, mine design, development of plans, production, and operations, to mine closure.
+With the process of mineral extraction, some amount of waste material and other byproducts are generated which are the primary source of pollution in the vicinity of mines. Mining activities by their nature cause a disturbance of the natural environment in and around which the minerals are located. Mining engineers must, therefore, be concerned not only with the production and processing of mineral commodities but also with the mitigation of damage to the environment both during and after mining as a result of the change in the mining area.</p>
+<br><br>
+
+  <h2>Electrical and communication Engineering</h2>
+  <p>The creation of physical devices and abstract methods that make it possible to conduct electricity, magnetism and light, through low power electrical circuits deemed electronic circuits as well as through communication channels, in such a manner so as to make it possible to control, that is to actuate, on other external entities that can be mechanical, electrical, chemical and even biological in nature, even to the point of automation and thus achieving a manipulation over those natural phenomena so as to concede to them a specific form so that they abstractly represent something, in a processing action that is called program and therefore they become abstract signals of information, which can be subject of further processing and even end-user presentation in what is known as computing.</p>
+<br><br>
+  <h2>Mechanical Engineering</h2>
+  <p>Medicine and healthcare biology, biocompatible prostheses, diagnostic and therapeutic devices ranging from clinical equipment to micro-implants, imaging equipment such as MRIs and EEGs, tissue regeneration and pharmaceuticals. The increased utilization of nanotechnology across the existing areas of this branch has led the specialization Biomedical nanoengineering.</p>
+
+
+
+</div>
+</body>
+<script src="jquery-ui\external\jquery\jquery.js" charset="utf-8"></script>
+<script src="jquery-ui\jquery-ui.js" charset="utf-8"></script>
+<script>
+
+$("#mydiv").accordion({
+  collapsible:true,
+  active:8,
+  event:"mouseover",
+  animate:1000,
+  heightStyle:true,
+  icons:{header:"ui-icon-circle-arrow-e", activeHeader:"ui-icon-circle-arrow-s"}
+});
+
+</script>
+</html>
